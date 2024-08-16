@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic structure of Html</title>
+  </head>
+  <body>
+    <header>
+      <h1>📘 The Code Magazine</h1>
+
+      <nav>
+        <a href="blog.html">Blog</a>
+        <a href="#">Challenge</a>
+        <a href="#">Flexbox</a>
+        <a href="#">CSS Grid</a>
+      </nav>
+    </header>
+
+    <article>
+      <h2>The Basic Language of the Web: HTML</h2>
+
+      <img src="img/laura-jones.jpg" alt="laura-jones" height="50" width="50" />
+
+      <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+
+      <img src="img/post-img.jpg" alt="post-img" height="200" width="500" />
+
+      <p>
+        All modern websites and web applications are built using three
+        <em>fundamental</em> technologies: HTML, CSS and JavaScript. These are
+        the languages of the web. In this post, let's focus on HTML. We will
+        learn what HTML is all about, and why you too should learn it.
+      </p>
+
+      <h3>What is HTML?</h3>
+
+      <p>
+        HTML stands for <strong>H</strong>yperText <strong>M</strong>ark
+        <strong>L</strong>anguge It's a markup language that web developers use
+        to structure and describe the content of a webpage (not a programming
+        language). HTML consists of elements that describe different types of
+        content: paragraphs, links, headings, images, video, etc. Web browsers
+        understand HTML and render HTML code as websites.
+      </p>
+
+      <p>In HTML, each element is made up of 3 parts:</p>
+
+      <ol>
+        <li>
+          The opening tag
+          <ol>
+            <li>open</li>
+            <li>hello😍</li>
+          </ol>
+        </li>
+        <li>The closing tag</li>
+        <li>The actual element</li>
+      </ol>
+
+      <p>
+        You can learn more at
+        <a
+          href="http://developer.mozilla.org/en-US/docs/web/HTML"
+          target="_blank"
+        >
+          MON Web Docs.</a
+        >
+      </p>
+
+      <h3>Why should you learn HTML?</h3>
+
+      <p>
+        There are countless reasons for learning the fundamental language of the
+        web. Here are 5 of them:
+      </p>
+
+      <ul>
+        <li>To be able to use the fundamental web dev language</li>
+        <li>
+          To hand-craft beautiful websites instead of relying on tools like
+          Worpress or Wix
+        </li>
+        <li>To build web applications</li>
+        <li>To impress friends</li>
+        <li>To have fun 😃</li>
+      </ul>
+    </article>
+
+    <aside>
+      <ul>
+        <li>
+          <img src="img/related-1.jpg" alt="related-1" width="75" height="75" />
+          <a href="#">how to learn web development</a>
+          <p>By Jonas schmedtmann</p>
+        </li>
+        <li>
+          <img src="img/related-2.jpg" alt="related-2" width="75" height="75" />
+          <a href="#">the Unkown power of CSS</a>
+          <p>By Jin Dillon</p>
+        </li>
+        <li>
+          <img src="img/related-3.jpg" alt="related-3" width="75" height="75" />
+          <a href="#">Why Javascript is Awesome</a>
+          <p>By Matil da</p>
+        </li>
+      </ul>
+    </aside>
+    <br /><br />
+
+    <article>
+      <h3>Contact Me</h3>
+      <p>I'd really want to hear from you</p>
+
+      <form action="#">
+        <fieldset>
+          <legend>Personal info</legend>
+          <p>
+            <label for="fname">First Name:</label>
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              placeholder="Jane"
+              autocomplete="on"
+              required
+              autofocus
+            />
+          </p>
+
+          <p>
+            <label for="lname">Last Name:</label>
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="Doe"
+              autocomplete="on"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="pword">Pass Word:</label>
+            <input
+              type="password"
+              name="pword"
+              id="pword"
+              placeholder="Enter"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="">Phone:</label>
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="00000000000"
+              required
+              pattern="[0-9]{11}"
+            />
+          </p>
+          <p>
+            <label for="fdecade">Favorite Decade:</label>
+            <input
+              type="number"
+              name="fdecade"
+              id="fdecade"
+              min="1950"
+              max="2020"
+              step="10"
+              value="1980"
+            />
+          </p>
+
+          <!-- <p>
+            <label for="State">State:</label>
+            <select name="State" id="State">
+                <option value="Abia">Abia</option>
+                <option value="Enugu">Enugu</option>
+                <option value="Imo">Imo</option>
+                <option value="Lagos">Lagos</option>
+                <option value="Kano">Kano</option>
+            </select>
+        </p> -->
+
+          <p>
+            <label for="state">State:</label>
+            <input type="text" name="state" id="state" list="state-list" />
+            <datalist id="state-list">
+              <option value="Abia">Abia</option>
+              <option value="Enugu">Enugu</option>
+              <option value="Imo">Imo</option>
+              <option value="Lagos">Lagos</option>
+              <option value="Kano">Kano</option>
+            </datalist>
+          </p>
+
+          <p>
+            <button type="submit">submit</button>
+            <button type="reset">reset</button>
+          </p>
+        </fieldset>
+      </form>
+    </article>
+    <br /><br />
+    <hr />
+
+    
+
+    <footer>Copyright &copy; 2027 by the code Magazine.</footer>
+  </body>
+</html>
